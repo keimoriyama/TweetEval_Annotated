@@ -26,3 +26,9 @@ The text in this dataset is English posted on X.
 |llm\_annotation| annotation from LLM |
 
 ## Target Label
+
+# License
+
+This dataset is licensed under a Creative Commons Attribution 4.0 International License.
+
+License details: https://creativecommons.org/licenses/by/4.0/
