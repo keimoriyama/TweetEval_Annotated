@@ -4,7 +4,7 @@
 {}
 ---
 
-# Dataset Card for Dataset Name
+# TweetEval Annotated Dataset
 
 <!-- Provide a quick summary of the dataset. -->
 
@@ -14,23 +14,15 @@ This dataset card aims to be a base template for new datasets. It has been gener
 
 ### Dataset Description
 
-<!-- Provide a longer summary of what this dataset is. -->
-
-
-
-- **Curated by:** [More Information Needed]
-- **Funded by [optional]:** [More Information Needed]
-- **Shared by [optional]:** [More Information Needed]
-- **Language(s) (NLP):** [More Information Needed]
-- **License:** [More Information Needed]
+- **Curated by:** Kei Moriyama (kei-moriyama@g.ecc.u-tokyo.ac.jp)
+- **Language(s) (NLP):** English
+- **License:** Creative Commons Attribution 4.0 International License.
 
 ### Dataset Sources [optional]
 
-<!-- Provide the basic links for the dataset. -->
+This dataset is created from the emoji recognition task in TweetEval dataset.
 
-- **Repository:** [More Information Needed]
-- **Paper [optional]:** [More Information Needed]
-- **Demo [optional]:** [More Information Needed]
+- **Repository:** [cardiffnlp/tweet_eval][https://huggingface.co/datasets/cardiffnlp/tweet_eval]
 
 ## Uses
 
@@ -39,12 +31,6 @@ This dataset card aims to be a base template for new datasets. It has been gener
 ### Direct Use
 
 <!-- This section describes suitable use cases for the dataset. -->
-
-[More Information Needed]
-
-### Out-of-Scope Use
-
-<!-- This section addresses misuse, malicious use, and uses that the dataset will not work well for. -->
 
 [More Information Needed]
 
@@ -94,35 +80,14 @@ This dataset card aims to be a base template for new datasets. It has been gener
 
 [More Information Needed]
 
-#### Personal and Sensitive Information
-
-<!-- State whether the dataset contains data that might be considered personal, sensitive, or private (e.g., data that reveals addresses, uniquely identifiable names or aliases, racial or ethnic origins, sexual orientations, religious beliefs, political opinions, financial or health data, etc.). If efforts were made to anonymize the data, describe the anonymization process. -->
-
-[More Information Needed]
-
-## Bias, Risks, and Limitations
-
-<!-- This section is meant to convey both technical and sociotechnical limitations. -->
-
-[More Information Needed]
-
-### Recommendations
-
-<!-- This section is meant to convey recommendations with respect to the bias, risk, and technical limitations. -->
-
-Users should be made aware of the risks, biases and limitations of the dataset. More information needed for further recommendations.
-
 ## Citation [optional]
 
 <!-- If there is a paper or blog post introducing the dataset, the APA and Bibtex information for that should go in this section. -->
 
 **BibTeX:**
 
-[More Information Needed]
+WIP
 
-**APA:**
-
-[More Information Needed]
 
 ## Glossary [optional]
 
