@@ -14,7 +14,7 @@ This dataset card aims to be a base template for new datasets. It has been gener
 
 ### Dataset Description
 
-- **Curated by:** Kei Moriyama (kei-moriyama@g.ecc.u-tokyo.ac.jp)
+- **Curated by:** keimoriyama
 - **Language(s) (NLP):** English
 - **License:** Creative Commons Attribution 4.0 International License.
 
@@ -22,7 +22,7 @@ This dataset card aims to be a base template for new datasets. It has been gener
 
 This dataset is created from the emoji recognition task in TweetEval dataset.
 
-- **Repository:** [cardiffnlp/tweet_eval][https://huggingface.co/datasets/cardiffnlp/tweet_eval]
+- **Repository:** [cardiffnlp/tweet_eval](https://huggingface.co/datasets/cardiffnlp/tweet_eval)
 
 ## Uses
 
@@ -38,49 +38,39 @@ This dataset is created from the emoji recognition task in TweetEval dataset.
 
 <!-- This section provides a description of the dataset fields, and additional information about the dataset structure such as criteria used to create the splits, relationships between data points, etc. -->
 
-[More Information Needed]
+An instance of the dataset is:
 
-## Dataset Creation
+```jsonl
+  {
+    "id": 574,
+    "text": "Magical moonbeam light dance. Things are good.",
+    "original_label": 5,
+    "ground_truth_label": 3,
+    "emoji_label": "😊",
+    "annotation_0": "😊",
+    "annotation_label_0": 3,
+    "annotation_1": "😊",
+    "annotation_label_1": 3,
+    "annotation_2": "😊",
+    "annotation_label_2": 3,
+    "annotation_3": "😊",
+    "annotation_label_3": 3,
+    "annotation_llm": 3,
+    "annotation_label_llm": "😊"
+  }
+```
 
-### Curation Rationale
+## Data Fields
 
-<!-- Motivation for the creation of this dataset. -->
+- **id** 
+- **text**
+- **original_label**
+- **ground_truth_label**
+- **emoji_label**
+- **annotaiton_[0-3|llm]**
+- **annotation_label_[0-3|llm]**
 
-[More Information Needed]
-
-### Source Data
-
-<!-- This section describes the source data (e.g. news text and headlines, social media posts, translated sentences, ...). -->
-
-#### Data Collection and Processing
-
-<!-- This section describes the data collection and processing process such as data selection criteria, filtering and normalization methods, tools and libraries used, etc. -->
-
-[More Information Needed]
-
-#### Who are the source data producers?
-
-<!-- This section describes the people or systems who originally created the data. It should also include self-reported demographic or identity information for the source data creators if this information is available. -->
-
-[More Information Needed]
-
-### Annotations [optional]
-
-<!-- If the dataset contains annotations which are not part of the initial data collection, use this section to describe them. -->
-
-#### Annotation process
-
-<!-- This section describes the annotation process such as annotation tools used in the process, the amount of data annotated, annotation guidelines provided to the annotators, interannotator statistics, annotation validation, etc. -->
-
-[More Information Needed]
-
-#### Who are the annotators?
-
-<!-- This section describes the people or systems who created the annotations. -->
-
-[More Information Needed]
-
-## Citation [optional]
+## Citation
 
 <!-- If there is a paper or blog post introducing the dataset, the APA and Bibtex information for that should go in this section. -->
 
@@ -88,16 +78,6 @@ This dataset is created from the emoji recognition task in TweetEval dataset.
 
 WIP
 
-
-## Glossary [optional]
-
-<!-- If relevant, include terms and calculations in this section that can help readers understand the dataset or dataset card. -->
-
-[More Information Needed]
-
-## More Information [optional]
-
-[More Information Needed]
 
 ## Dataset Card Authors [optional]
 
