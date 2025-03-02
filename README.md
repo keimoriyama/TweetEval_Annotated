@@ -4,18 +4,19 @@
 {}
 ---
 
-# TweetEval Annotated Dataset
+# TweetEval-Annotated Dataset
 
 <!-- Provide a quick summary of the dataset. -->
-
-This dataset card aims to be a base template for new datasets. It has been generated using [this raw template](https://github.com/huggingface/huggingface_hub/blob/main/src/huggingface_hub/templates/datasetcard_template.md?plain=1).
+TweetEval-Annotated dataset is crowd-sourced collection of the ground-truth label and annotations.
+This dataset is created a part from the emoji recognition task in TweetEval dataset.
+The difference is the collection of the annotation of human and LLMs.
 
 ## Dataset Details
 
 ### Dataset Description
 
 - **Curated by:** keimoriyama
-- **Language(s) (NLP):** English
+- **Language(s) (NLP):** English only
 - **License:** Creative Commons Attribution 4.0 International License.
 
 ### Dataset Sources [optional]
@@ -62,13 +63,13 @@ An instance of the dataset is:
 
 ## Data Fields
 
-- **id** 
-- **text**
-- **original_label**
-- **ground_truth_label**
-- **emoji_label**
-- **annotaiton_[0-3|llm]**
-- **annotation_label_[0-3|llm]**
+- **id** : id of the dataset
+- **text** : Target text 
+- **original_label** : Corresponding label of `ground_truth_label` in TweetEval dataset 
+- **ground_truth_label** : Correct annotation label
+- **emoji_label** : Correct annotation label of emoji
+- **annotaiton_[0-3|llm]** : Annotation from the human(0~3) and LLM(llm)
+- **annotation_label_[0-3|llm]** : Annotation of emoji from the human(0~3) and LLM(llm)
 
 ## Citation
 
